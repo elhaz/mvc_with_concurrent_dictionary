@@ -1,0 +1,41 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <h1>MVC with concurrent directory</h1>
+        <hr />
+
+        <div>
+            <span>your session : </span>
+            <span class="sessionId"></span>
+        </div>
+
+        <hr />
+
+        <div>
+            <button id="refresh_session">🔄</button>
+            <span style="font-weight:bold;">sessions</span>
+            <ul id="sessions"></ul>
+        </div>
+
+        <hr />
+
+        <div>
+            <button id="refresh_dictvalue">🔄</button>
+            <span style="font-weight:bold;">my values</span>
+            <input id="new_dictkey" style="width:20%"/><input id="new_dictvalue" style="width:60%"/><button id="input_dictvalue">input</button>
+            <ul id="dict_value"></ul>
+        </div>
+    </div>
+    <script src="~/static/js/home-index.js"></script>
+</body>
+</html>

@@ -13,6 +13,7 @@ namespace mvc_with_concurrent_dictionary
 {
     public class Global : HttpApplication
     {
+        public static ConcurrentDictionary<string, Dictionary<string, string>> concurrentDictionary = new ConcurrentDictionary<string, Dictionary<string, string>>();
         void Application_Start(object sender, EventArgs e)
         {
             // 애플리케이션 시작 시 실행되는 코드
