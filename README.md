@@ -16,3 +16,7 @@ This project shows how to use ConcurrentDictionary as a global memory.
 - [ ] Web Form
 - [x] MVC
 - [x] Web API
+
+### reference
+
+[MSDN - concurrent dictionary](https://learn.microsoft.com/en-us/dotnet/api/system.collections.concurrent.concurrentdictionary-2?view=net-7.0)
